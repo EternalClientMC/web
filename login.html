@@ -1,0 +1,224 @@
+<html>
+<head>
+    <title>
+        Eternal Client Login
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        header img {
+            height: 40px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .login-button {
+            border: 1px solid #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .login-container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .login-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-container a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        footer {
+            width: 100%;
+            padding: 20px 40px;
+            box-sizing: border-box;
+            background-color: #121212;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1000px;
+            margin-bottom: 20px;
+        }
+        .footer-content div {
+            flex: 1;
+        }
+        .footer-content h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .footer-content a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .footer-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .footer-icons a {
+            color: #ffffff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img alt="Logo de Eternal Client" height="40" src="/images/logo.png" width="40"/>
+        <nav>
+            <a href="#">
+                Cosméticos de Eternal
+            </a>
+            <a href="#">
+                Premium
+            </a>
+            <a href="#">
+                Taller
+            </a>
+        </nav>
+        <a class="login-button" href="login.html">
+            Iniciar Sesión
+        </a>
+    </header>
+    <div class="login-container">
+        <h1>
+            Inicia sesión en Eternal Client
+        </h1>
+        <input placeholder="Correo electrónico" type="email"/>
+        <input placeholder="Contraseña" type="password"/>
+        <button>
+            Iniciar Sesión
+        </button>
+        <a href="registrarse.html">
+            Regístrate en Eternal Client
+        </a>
+        <a href="reiniciarcontraseña.html">
+            Restablecer contraseña
+        </a>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <img alt="Logo de Eternal Client" height="40" src="https://storage.googleapis.com/a1aa/image/F74YaEaQhDJJMNVeyWwLQy3mIhO5jBeQfKBfGNZIIFFXWteeE.jpg" width="40"/>
+                <div class="footer-icons">
+                    <a href="#">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-reddit"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3>
+                    Eternal Client
+                </h3>
+                <a href="#">
+                    Descargar
+                </a>
+                <a href="#">
+                    Noticias
+                </a>
+                <a href="#">
+                    FAQ
+                </a>
+                <a href="#">
+                    Registrarse
+                </a>
+            </div>
+            <div>
+                <h3>
+                    Empresa
+                </h3>
+                <a href="#">
+                    Identidad Visual
+                </a>
+                <a href="#">
+                    Reglas
+                </a>
+                <a href="#">
+                    Equipo
+                </a>
+            </div>
+            <div>
+                <h3>
+                    Servicios
+                </h3>
+                <a href="#">
+                    Tienda
+                </a>
+                <a href="#">
+                    Estado
+                </a>
+                <a href="#">
+                    Soporte
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

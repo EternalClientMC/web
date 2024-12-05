@@ -1,0 +1,251 @@
+<html>
+ <head>
+  <title>
+   Registro de Eternal Client
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        header img {
+            height: 40px;
+        }
+        header nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        header .login-button {
+            border: 1px solid #ffffff;
+            padding: 5px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 14px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .container form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        .container form input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+        .container form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        footer {
+            width: 100%;
+            background-color: #1e1e1e;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 20px;
+        }
+        footer .footer-content div {
+            flex: 1;
+            margin: 0 10px;
+        }
+        footer .footer-content div h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        footer .footer-content div a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        footer .social-icons a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        footer .language {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: #888;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            header nav {
+                margin-top: 10px;
+            }
+            footer .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            footer .footer-content div {
+                margin-bottom: 20px;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div>
+    <img alt="Logo de Eternal Client" height="40" src="/images/logo.png" width="40"/>
+    <span>
+        <a href="inicio.html">Eternal Client</a>
+    </span>
+   </div>
+   <nav>
+    <a href="#">
+     Cosméticos 
+    </a>
+    <a href="#">
+     Premium
+    </a>
+    <a href="#">
+     Taller
+    </a>
+   </nav>
+   <a class="login-button" href="#">
+    Iniciar sesión
+   </a>
+  </header>
+  <div class="container">
+   <h1>
+    Regístrate en Eternal Client
+   </h1>
+   <form>
+    <input placeholder="Nombre de usuario de Minecraft" type="text"/>
+    <input placeholder="Correo electrónico" type="email"/>
+    <input placeholder="Contraseña" type="password"/>
+    <button type="submit">
+        <a href="login.html">Resgistrar</a>
+    </button>
+   </form>
+  </div>
+  <footer>
+   <div class="footer-content">
+    <div>
+     <h3>
+      Eternal Client
+     </h3>
+     <a href="inicio.html">Descargar</a>
+     </a>
+     <a href="#">
+      Noticias
+     </a>
+     <a href="#">
+      Preguntas frecuentes
+     </a>
+     <a href="#">
+      Registrarse
+     </a>
+    </div>
+    <div>
+     <h3>
+      Empresa
+     </h3>
+     <a href="#">
+      Marca
+     </a>
+     <a href="#">
+      Reglas
+     </a>
+     <a href="#">
+      Personal
+     </a>
+    </div>
+    <div>
+     <h3>
+      Nuestros Servicios
+     </h3>
+     <a href="#">
+      Tienda
+     </a>
+     <a href="#">
+      Estado
+     </a>
+     <a href="#">
+      Soporte
+     </a>
+    </div>
+   </div>
+   <div class="social-icons">
+    <a href="#">
+     <i class="fab fa-discord">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-youtube">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-tiktok">
+     </i>
+    </a>
+   </div>
+   <div class="language">
+    ES
+   </div>
+  </footer>
+ </body>
+</html>
